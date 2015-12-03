@@ -1,5 +1,5 @@
 list = dir('*.mat')
-Output2008O3 = [];
+Output2008O3 = {};
 % Output2008O3 is the cell that contain all the data bigger than 60
 for n = 1:7
     load(list(n,1).name);
