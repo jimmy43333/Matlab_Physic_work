@@ -1,6 +1,7 @@
 function [ air dateandtime ] = getair(file,airstr,date_start,date_end)
 %GETPLOT Summary of this function goes here
-% 輸出從 起始時間到結束時間 的 空氣含量 跟 時間 的函數
+% 輸入的參數為xls檔案名稱，空氣種類，起始時間，結束時間
+% 輸出 空氣含量 跟 時間 的函數
 % Input file : the data file
 % Input airstr : the air you want to observe
 % Input date_start : the date you start
